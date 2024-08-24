@@ -1,0 +1,43 @@
+:raiz{
+    --cor-fundo: #01080E;
+    --cor-principal: #0B0D20;
+    --cor-secundaria: #212333;
+    --cor-destaque: #2BDEFD;
+    --cor-texto: #D7F9FF;
+
+}
+
+corpo{
+    cor de fundo: var(--cor-fundo);
+    cor: var(--cor-texto);
+    mostrar:flexível;
+    justificar-conteúdo:centro;
+    alinhar-itens:centro;
+    altura mínima: 100VH-V;
+}
+
+.caixa-principal{
+    cor de fundo: var(--cor-principal);
+    largura: 90%;
+    largura máxima: 600px;
+    alinhamento de texto:centro;
+    preenchimento: 20px;
+}
+
+h1{
+    cor: var(--cor-destaque);
+}
+
+botão{
+    cor de fundo: var(--cor-secundaria);
+    cor: var(--cor-texto);
+    fronteira:nenhum;
+    raio da borda: 15px;
+    preenchimento: 15px;
+    transição:cor de fundo0,3e;
+}
+
+botão:pairar{
+    cor de fundo: var(--cor-destaque);
+    cor: var(--cor-principal);
+}
